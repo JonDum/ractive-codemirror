@@ -39,7 +39,7 @@
 	'use strict';
 
 	Ractive.components['codemirror'] = Ractive.extend({
-		template: "<textarea></textarea>",
+		template: {v:3,t:[{t:7,e:"textarea"}]},
 		isolated: true,
 		onrender: function () {
 			var self = this
